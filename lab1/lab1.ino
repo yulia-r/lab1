@@ -18,9 +18,9 @@ void setup()
     Serial.println("Started!");
 
     sensorData whiteCalibration;
-    whiteCalibration.value[TCS230_RGB_R] = 0;
+    whiteCalibration.value[TCS230_RGB_R] = 0; //непонятная строчка
     whiteCalibration.value[TCS230_RGB_G] = 0;
-    whiteCalibration.value[TCS230_RGB_B] = 0;
+    whiteCalibration.value[TCS230_RGB_B] = 0; 
 
     sensorData blackCalibration;
     blackCalibration.value[TCS230_RGB_R] = 0;
